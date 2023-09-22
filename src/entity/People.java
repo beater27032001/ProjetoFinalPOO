@@ -5,9 +5,9 @@ public class People {
     private String cpf;
     private int idPeople;
     private String email;
-    private int number;
+    private String number;
 
-    public People(String name, String cpf, int idPeople, String email, int number) {
+    public People(String name, String cpf, int idPeople, String email, String number) {
         this.name = name;
         this.cpf = cpf;
         this.idPeople = idPeople;
@@ -50,11 +50,11 @@ public class People {
         this.email = email;
     }
 
-    public int getNumber() {
+    public String getNumber() {
         return number;
     }
 
-    public void setNumber(int number) {
+    public void setNumber(String number) {
         this.number = number;
     }
 

@@ -71,6 +71,4 @@ public class PatientRepository {
             return true;
         }
     }
-
-
 }

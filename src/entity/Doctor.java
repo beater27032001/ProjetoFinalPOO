@@ -4,7 +4,7 @@ public class Doctor extends People{
     private String crm;
     private Area area;
 
-    public Doctor(String name, String cpf, int idPeople, String email, int number, String crm, Area area) {
+    public Doctor(String name, String cpf, int idPeople, String email, String number, String crm, Area area) {
         super(name, cpf, idPeople, email, number);
         this.crm = crm;
         this.area = area;

@@ -1,5 +1,5 @@
 package entity;
 
 public enum HospitalArea {
-    Ambulatório, Emergência, UTI, BlocoCirúrgico;
+    Ambulatório, Emergência, UTI, BlocoCirúrgico, Default;
 }
